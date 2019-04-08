@@ -22,12 +22,12 @@ the `$AIRFLOW_HOME/plugins` folder. If the `$AIRFLOW_HOME/plugins` folder does n
 
 Once you have completed your Airflow plugins folder should look like this
 
-`$AIRFLOW_HOME/plugins/powerbi_plugin` 
-`$AIRFLOW_HOME/plugins/powerbi_plugin/__init__.py` 
-`$AIRFLOW_HOME/plugins/powerbi_plugin/hooks/__init__.py` 
-`$AIRFLOW_HOME/plugins/powerbi_plugin/hooks/powerbi_hook.py` 
-`$AIRFLOW_HOME/plugins/powerbi_plugin/operators/__init__.py` 
-`$AIRFLOW_HOME/plugins/powerbi_plugin/operators/powerbi_dataset_refresh_operator.py` 
+`$AIRFLOW_HOME/plugins/powerbi_plugin`  
+`$AIRFLOW_HOME/plugins/powerbi_plugin/__init__.py`   
+`$AIRFLOW_HOME/plugins/powerbi_plugin/hooks/__init__.py`   
+`$AIRFLOW_HOME/plugins/powerbi_plugin/hooks/powerbi_hook.py`   
+`$AIRFLOW_HOME/plugins/powerbi_plugin/operators/__init__.py`  
+`$AIRFLOW_HOME/plugins/powerbi_plugin/operators/powerbi_dataset_refresh_operator.py`   
 
 In order to use the hook and operator use the following imports:
 - `from airflow.hooks.powerbi_plugin import PowerBIHook`
