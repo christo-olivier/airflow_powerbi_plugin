@@ -6,7 +6,7 @@ This plugin is designed to allow you to perform operations against Microsoft Pow
 
 The current Power BI Hook allows the following operations to take place against the Power BI REST API:
 
-1. Get the refresh history for a datasource
+1. Get the refresh history for a dataset
 1. Refresh a dataset
 
 ## Operators
