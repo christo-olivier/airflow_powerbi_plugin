@@ -1,5 +1,5 @@
 import requests
-from airflow.models import AirflowException
+from airflow.exceptions import AirflowException
 from airflow.hooks.base_hook import BaseHook
 
 
